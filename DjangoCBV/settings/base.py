@@ -19,7 +19,6 @@ BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = '#ad%q8q!9so1#6*#%t@yk1js93w9%%fjcap*4x5bl4_dr4m-c7'
 
-TEMPLATE_DEBUG = True
 
 ALLOWED_HOSTS = ['127.0.0.1']
 
@@ -34,6 +33,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'south',
     'home',
+    'core',
 )
 
 MIDDLEWARE_CLASSES = (
