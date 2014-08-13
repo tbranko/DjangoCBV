@@ -1,0 +1,4 @@
+DjangoCBV
+=========
+
+DjangoCBV demo
